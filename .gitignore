@@ -1,0 +1,42 @@
+# Entornos virtuales
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Archivos de entorno
+.env
+.env.*
+
+# Archivos de log
+*.log
+
+# Archivos de cache de Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Configuración de VSCode
+.vscode/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.tmp
+*.bak
+
+# Base de datos SQLite (si usas una local)
+*.sqlite3
+
+# Requisitos
+pip-log.txt
+
+# Archivos específicos de Render
+build/
+render.yaml
+
+# Archivos de test (si no quieres subirlos)
+*.test.*
